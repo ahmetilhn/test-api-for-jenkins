@@ -4,7 +4,6 @@
     "pm2": "^5.3.1"
   },
   "scripts": {
-    "start": "pm2 start src/api.js",
-    "stop": "pm2 stop src/api.js"
+    "start": "node src/api.js"
   }
 }
